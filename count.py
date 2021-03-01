@@ -22,6 +22,7 @@ def count(end, stop, iteration):
             print("end can't be less than or equal to stop")
 
 try:
-    count(5, 2, 1)
+    count(arg1, arg2, arg3)
 except ValueError:
     print(ValueError)
+    
