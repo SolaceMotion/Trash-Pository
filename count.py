@@ -1,5 +1,9 @@
 import math
 
+init_end = int(input("input end: "))
+init_stop = int(input("input stop: "))
+init_iteration = int(input("input iterator: "))
+
 def count(end, stop, iteration):
     isCounting = True
     i = 0
@@ -22,7 +26,7 @@ def count(end, stop, iteration):
             print("end can't be less than or equal to stop")
 
 try:
-    count(arg1, arg2, arg3)
+    count(init_end, init_stop, init_iteration)
 except ValueError:
     print(ValueError)
     
