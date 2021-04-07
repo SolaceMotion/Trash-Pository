@@ -10,5 +10,5 @@ for entry in randomList:
     except:
         print("Oops!", sys.exc_info()[1], "occurred.")
         print("Next entry.")
-        print("") # line break
+        print("")
 print("The reciprocal of", entry, "is", r)

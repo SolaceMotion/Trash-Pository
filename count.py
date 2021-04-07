@@ -13,7 +13,12 @@ def count(end, stop, iteration):
             i = i + iteration
             if i == stop:
                 isCounting = False
-                print("The square root of", str(end - stop), "is" , str(round(math.sqrt(end - stop), 2)))
+                operation = int(input("choose mathematical operation"))
+                if operation == 1:
+                    print("The square root of", str(end - stop), "is" , str(round(math.sqrt(end - stop), 2)))
+                elif operation == 2:
+                    print("The square of", str(end - stop), "is", str(round(math.pow(end, stop), 2)))
+
     else:
         print("stop can't be less than iterator")
 
